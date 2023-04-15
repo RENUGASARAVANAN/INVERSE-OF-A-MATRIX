@@ -23,10 +23,13 @@ Find the inverse of a matrix
 Print the result
 
 ## Program:
+```python
 import numpy as np
-A=np.array([[1,2,3],[3,6,9]])
-rank=np.linalg.matrix_rank(A)
-print(rank)
+A=np.array([[2,1,1],[1,1,1],[1,-1,2]])
+inverse=np.linalg.inv(A)
+print(inverse)
+```
+
 
 ## Output:![inverse of a matrix](https://user-images.githubusercontent.com/119292258/232187154-e9ec538c-062b-4215-8daa-5cd8c1d03368.png)
 
