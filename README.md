@@ -24,6 +24,9 @@ Print the result
 
 ## Program:
 ```python
+#Program to find the inverse of a matrix.
+#Developed by:Renuga.S 
+#RegisterNumber:212222230118
 import numpy as np
 A=np.array([[2,1,1],[1,1,1],[1,-1,2]])
 inverse=np.linalg.inv(A)
